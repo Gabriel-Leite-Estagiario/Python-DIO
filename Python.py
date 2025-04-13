@@ -45,6 +45,8 @@ print(10//10)
 
 print(10**2*2)
 
+
+
 #Variávies
 
 saldo =100
@@ -68,6 +70,8 @@ print(name is name)
 
 print(name is not name)
 
+
+
 #Listas
 
 frutas = ["lemon", "abacate", "manga"]
@@ -75,6 +79,7 @@ frutas = ["lemon", "abacate", "manga"]
 print ("orange" not in frutas)
 
 print ("lemon" not in frutas)
+
 
 
 #Condições
@@ -88,6 +93,7 @@ if money >= saque:
 
 else:
     print("Voce não tem dinheiro suficiente")
+
 
 
 #Condição com elif
@@ -139,10 +145,12 @@ while True:
     print("O número é menor.")
 
 
+
     #Tabuada
 
     for numero in range (0, 51, 5):
        print(numero, end=" ")
+
 
 
 #Interpolação
@@ -153,6 +161,7 @@ idade = 21
 print ("olá meu nome é %s e eu tenho %d anos de idade." % (nome, idade))
 
 
+
 #Função
 
 def nome():
@@ -160,4 +169,54 @@ def nome():
 
 
 nome()
+
+
+
+# matriz
+
+matriz = [
+   [1,2,3],
+   [3,4,5],
+   [6,7,8],
+]
+
+
+
+#tuplas
+
+frutas = ("maçã", "banana", "laranja",)
+
+
+
+#set remove a duplicidade
+
+set("abacaxi")
+
+
+
+#Dicionários
+
+dados = {"nome": "Gabriel", "Idade": "21", "Cidade": "Sorocaba"}
+
+dados["nome"]
+
+
+
+#Date
+
+from datetime import date, datetime
+
+data = date (2025, 4, 13)
+
+print(data)
+
+print(date.today())
+
+
+
+#Data e Hora
+
+dataehora = datetime(2025, 4, 13, 19, 12, 1)
+
+print(dataehora)
 
