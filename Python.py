@@ -220,3 +220,36 @@ dataehora = datetime(2025, 4, 13, 19, 12, 1)
 
 print(dataehora)
 
+
+
+#POO
+
+class Bicicleta:
+   def __init__(self, cor, modelo, ano, valor):
+      self.cor = cor
+      self.modelo = modelo
+      self.ano = ano
+      self.valor = valor
+
+   def buzina(self):
+      print("Plim Plim...")
+
+   def parar(self):
+      print("Parando a Bicicleta...")
+      print("Bicicleta parada")
+
+   def correr(self):
+      print("Vrummmmm...")
+      
+
+b1 = Bicicleta("vermelha", "Caloi", 2022, 600)
+b1.buzina()
+b1.correr()
+b1.parar()
+print(b1.cor, b1.modelo, b1.ano, b1.valor)
+
+b2 = Bicicleta("verde", "monark", 2000, 189)
+b2.buzina()
+
+
+
